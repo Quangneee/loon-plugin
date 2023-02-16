@@ -1,0 +1,10 @@
+#!name=Varlens
+#!desc=Unlock Varlens
+#!author=https://t.me/MynameisDell
+#!icon=https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Varlens.png
+
+[Script]
+http-request ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ script-response-body https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Varlens.js
+
+[MITM]
+hostname = mid.zineapi.com
