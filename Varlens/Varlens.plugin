@@ -4,7 +4,7 @@
 #!icon=https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Varlens/Varlens.png
 
 [Script]
-^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Varlens/Varlens.js
+http-request ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ script-path=https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Varlens/Varlens.js
 
 [MITM]
 hostname = mid.zineapi.com
