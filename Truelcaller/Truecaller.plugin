@@ -4,7 +4,7 @@
 #!icon=https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Truecaller/Truecaller.png
 
 [Script]
-http-request ^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple) script-path=https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Truecaller.js
+http-request ^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple) script-path=https://raw.githubusercontent.com/Quangneee/loon-plugin/main/Truecaller/Truecaller.js
 
 [MITM]
 hostname = %APPEND% premium*.truecaller.com
